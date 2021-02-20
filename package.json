@@ -1,0 +1,28 @@
+{
+    "name": "@webcoastdk/composerjs",
+    "description": "NodeJS wrapper for running composer inside a docker container",
+    "keywords": [
+        "docker",
+        "php",
+        "composer",
+        "wrapper"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/webcoast-dk/composerjs.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Thorben Nissen",
+        "email": "thorben@webcoast.dk"
+    },
+    "version": "1.0.0",
+    "dependencies": {
+        "chalk": "^3.0.0",
+        "command-line-args": "^5.1.1"
+    },
+    "os": ["darwin", "linux"],
+    "bin": {
+        "composerjs": "composer.js"
+    }
+}
