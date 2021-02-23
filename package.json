@@ -1,5 +1,5 @@
 {
-    "name": "@webcoastdk/composerjs",
+    "name": "@webcoast/composerjs",
     "description": "NodeJS wrapper for running composer inside a docker container",
     "keywords": [
         "docker",
@@ -24,5 +24,10 @@
     "os": ["darwin", "linux"],
     "bin": {
         "composerjs": "composer.js"
-    }
+    },
+    "files": [
+        "docs",
+        "lib",
+        "composer.js"
+    ]
 }
